@@ -5,6 +5,7 @@ lua54 'yes'
 
 description 'rsg-appearance'
 version '2.4.8'
+ui_page 'html/index.html'
 
 shared_scripts {
     '@ox_lib/init.lua',
@@ -26,10 +27,12 @@ files {
     'data/overlays.lua',
     'data/clothing.lua',
     'data/hairs_list.lua',
-    'data/clothes_list.lua'
+    'data/clothes_list.lua',
+    'html/index.html',
+    'html/script.js',
+    'html/style.css'
 }
 
 dependencies {
-    'rsg-core',
     'ox_lib'
 }
